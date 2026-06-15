@@ -3,6 +3,7 @@
   --kleur: rgb(61, 90, 45);
   --kleurstreep: rgb(82, 127, 58);
   --achtergrondkleur: rgb(247, 247, 247);
+  overflow-x: hidden;
 }
 
 *{  
@@ -48,7 +49,7 @@ a{
 /* menu+logo einde*/
 
 
-html{overflow-x: hidden;} /*niet weglaten - beide moeten voor menu*/
+/*html{} niet weglaten - beide moeten voor menu*/
 
 body{
   max-width: 100em;
@@ -56,7 +57,7 @@ body{
   font-family: var(--lettertype);
   font-size: 1.3rem;
   color: var(--kleur);
-  overflow-x: hidden; /* zodat zijmenu niet zichtbaar kan worden als niet actief , bijvoorbeeld als scherm GSM roteren staand-liggend - zowel htlm als body moeten getarged worden anders werkt het niet*/
+  /* overflow-x: hidden; zodat zijmenu niet zichtbaar kan worden als niet actief , bijvoorbeeld als scherm GSM roteren staand-liggend - zowel htlm als body moeten getarged worden anders werkt het niet*/
 }
 
 main{
