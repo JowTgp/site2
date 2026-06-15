@@ -57,7 +57,7 @@ body{
   font-family: var(--lettertype);
   font-size: 1.3rem;
   color: var(--kleur);
-  /* overflow-x: hidden; zodat zijmenu niet zichtbaar kan worden als niet actief , bijvoorbeeld als scherm GSM roteren staand-liggend - zowel htlm als body moeten getarged worden anders werkt het niet*/
+  overflow-x: hidden; /* zodat zijmenu niet zichtbaar kan worden als niet actief , bijvoorbeeld als scherm GSM roteren staand-liggend - zowel htlm als body moeten getarged worden anders werkt het niet*/
 }
 
 main{
